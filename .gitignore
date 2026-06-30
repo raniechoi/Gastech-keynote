@@ -1,0 +1,35 @@
+# 환경 변수 (API Key 보안)
+   .env
+   .env.local
+   .env.*.local
+   
+   # Node.js
+   node_modules/
+   npm-debug.log*
+   yarn-debug.log*
+   yarn-error.log*
+   package-lock.json
+   yarn.lock
+   
+   # React
+   client/build/
+   client/.env.local
+   client/.env.development.local
+   
+   # IDE
+   .vscode/
+   .idea/
+   *.swp
+   *.swo
+   *~
+   .DS_Store
+   
+   # 업로드된 파일
+   uploads/
+   
+   # 결과 파일
+   results/
+   
+   # OS
+   Thumbs.db
+   .AppleDouble
